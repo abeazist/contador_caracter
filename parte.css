@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+h1{
+    color: blueviolet;
+}
+.container{
+    border: 1px solid gray;
+    background-color: white;
+}
