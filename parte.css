@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    justify-content: center;
+    
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-color: blueviolet;
 }
@@ -6,14 +9,30 @@ h1{
     color: blueviolet;
 }
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid gray;
     background-color: white;
-    width: 30%;
+    width: 35%;
+    padding: 10px 10px 10px 10px;
     border-radius: 7px;
+    align-content: center;
+    margin: auto;
     
 }
 button{
-     background-color: blueviolet;
-     color: aliceblue;
-     border-radius: 5px;
+    border: none; /* remove a borda */
+    border-radius: 5px;
+    padding: 8px 20px; /* ajusta o preenchimento para um visual mais espaçado */
+    cursor: pointer; 
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 150px;
+}
+.campos-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
