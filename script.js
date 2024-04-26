@@ -23,9 +23,9 @@ function handleInputTexto(evento){
 function handleBtnContar(evento){
     if (estado === "caracteres"){
         estado = "palavras"
-        btnContar.innerText = "Contar Palavras"
+        btnContar.innerText = "Contar Caracteres"
     }else {
         estado = "caracteres"
-        btnContar.innerText = "Contar Caracteres"
+        btnContar.innerText = "Contar Palavras"
 }
 }
